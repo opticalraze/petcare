@@ -6,6 +6,7 @@ import Services from './views/Services.vue';
 import Pricing from './views/Pricing.vue';
 import About from './views/About.vue';
 import Contact from './views/Contact.vue';
+import DesignFooter from './components/DesignFooter.vue';
 </script>
 
 <template>
@@ -18,4 +19,5 @@ import Contact from './views/Contact.vue';
         <Contact id="contact" />
     </main>
     <Footer />
+    <DesignFooter />
 </template>
